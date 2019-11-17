@@ -2,20 +2,15 @@
 
 > A Vue.js project
 
-## Build Setup
+## 中心化商城平台
+- 超级管理员发布产品图片，描述，价格等信息
+- 用户购买，支付，评价
 
-``` bash
-# install dependencies
-npm install
+## 涉及知识点
+- alipay，微信支付等支付接口对接
+- 调用摄像头，拍照，扫一扫，电话本等手机底层接口
+- nodejs，mysql，nginx等后端技术
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 目的
+- 用以学习新知识
+- 开源让更多人参与发现自己的不足
