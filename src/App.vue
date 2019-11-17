@@ -20,7 +20,7 @@ export default {
   computed: {},
   methods: {
     getUserList(){
-      this.$http.get('http://127.0.0.1:3000/api/getUserList',{}).then(res=>{
+      this.$http.get('/getUserList',{}).then(res=>{
         console.log(res);
       }).catch(err=>{
         console.log(err);
