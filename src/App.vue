@@ -1,13 +1,34 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    {{msg}}
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data () {
+    return {
+      msg: 'vue框架后台管理'
+    }
+  },
+  mounted () {
+      this.getUserList()
+  },
+  computed: {},
+  methods: {
+    getUserList(){
+      this.$http.get('http://127.0.0.1:3000/api/getUserList',{}).then(res=>{
+        console.log(res);
+      }).catch(err=>{
+        console.log(err);
+      })
+    }
+  },
+  watch: {}
+
 }
 </script>
 
