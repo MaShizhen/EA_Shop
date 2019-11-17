@@ -1,11 +1,6 @@
-
 const MYSQL = require('mysql');
-const MYSQLCONFIG = {
-    host: 'localhost',
-    user: 'root',
-    password: '123JIAcy',
-    database:'ea_shop'
-}
+ const MYSQLCONFIG = require ('./sql.config');
+
 
 let db = {};
 
