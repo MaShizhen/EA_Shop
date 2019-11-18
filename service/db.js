@@ -1,5 +1,5 @@
 const MYSQL = require('mysql');
- const MYSQLCONFIG = require ('./sql.config');
+ const MYSQLCONFIG = require ('./sqlConfig/sql.config');
 
 
 let db = {};
