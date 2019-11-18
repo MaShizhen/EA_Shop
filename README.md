@@ -15,7 +15,7 @@
 - 调用摄像头，拍照，扫一扫，电话本等手机底层接口
 - nodejs，mysql，nginx等后端技术
 
-## 安装部署
+## 安装
 - 安装Node，必须有Node环境
 - 安装Mysql，导入ea_shop.sql文件
 
@@ -23,7 +23,7 @@
 # 下载
 git clone https://github.com/earl7478/EA_Shop.git
 
-# 安装
+# 安装依赖
 npm i
 
 # 启动项目
