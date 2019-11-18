@@ -18,20 +18,26 @@
 ## 安装部署
 - 安装Node，必须有Node环境
 - 安装Mysql，导入ea_shop.sql文件
-```
+
+```javascript
 # 下载
 git clone https://github.com/earl7478/EA_Shop.git
-# 安装依赖
+
+# 安装
 npm i
+
 # 启动项目
 npm run start
------------------------
-#进入service文件夹，给Node后端服务安装依赖
+
+# 进入service文件夹，给Node后端服务安装依赖
 cd service
+
 # 安装依赖
 npm i
+
 # 启动项目
 npm run start
+
 # 打开项目
 http://localhost:8080
 ```
