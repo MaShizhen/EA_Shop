@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    {{msg}}
     <router-view/>
   </div>
 </template>
@@ -11,22 +9,12 @@ export default {
   name: 'App',
   data () {
     return {
-      msg: 'vue框架后台管理'
     }
   },
   mounted () {
-      this.getUserList()
   },
   computed: {},
-  methods: {
-    getUserList(){
-      this.$http.get('/getUserList',{}).then(res=>{
-        console.log(res);
-      }).catch(err=>{
-        console.log(err);
-      })
-    }
-  },
+  methods: {},
   watch: {}
 
 }
@@ -39,6 +27,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
+body{ padding: 0; margin: 0; }
 </style>
